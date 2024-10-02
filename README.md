@@ -6,4 +6,6 @@ Just download the html file and run it on your virtual machine. You need a web b
 
 This portfolio highlights my skills, projects, and contact information.
 
+This will keep updating.
+
 Thankyou for Visiting.

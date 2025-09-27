@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Parkhi | Portfolio</title>
+    <link rel="stylesheet" href="style.css" />
+    <script defer src="script.js"></script>
+</head>
+
+<body>
+    <header>
+        <nav class="navbar">
+            <h1>Parkhi's Portfolio</h1>
+            <ul class="nav-links">
+                <li><a href="#about">About</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#certifications">Certifications</a></li>
+                <li><a href="#experience">Experience</a></li>
+
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section id="hero" class="hero">
+        <h2>👋 Hi, I'm Parkhi</h2>
+
+        <p>B.Tech (CSE) Student | Aspiring Full Stack Developer | UI/UX & Frontend Enthusiast | Passionate Learner</p>
+
+        <button class="btn" onclick="downloadResume()"><a href="assets/Parkhi_Resume.pdf" download>Download Resume</a></button>
+    </section>
+
+    <section id="about" class="about">
+        <h2>About Me</h2>
+        <article>
+            <p> <i>I am a final-year B.Tech CSE student aspiring to become a Full Stack Developer with strong UI/UX
+                    design skills. Passionate about crafting responsive web solutions and continuously learning to stay
+                    ahead in technology. Eager to adapt, collaborate, and build impactful digital experiences.
+
+                </i>
+            </p>
+        </article>
+    </section>
+
+    <section id="projects" class="projects">
+        <h2>Projects</h2>
+        <div class="project-list">
+            <article>
+                <h3>Responsive Portfolio</h3>
+                <p>HTML/CSS/JS based personal portfolio to showcase my skills.</p>
+                <a href="https://editkaro-portfolio-website.netlify.app" target="_blank">Live Demo</a>
+            </article>
+            <article>
+                <h3>Editkaro LeadGen Website</h3>
+                <p>Dynamic client project with Google Form and SEO integration.</p>
+                <a href="https://editkaro-leadgen.netlify.app" target="_blank">Live Demo</a>
+            </article>
+            <article class="card">
+                <h3>Patent Project</h3>
+                <p>Railway Track Obstruction Detection & Risk Assessment using Computer Vision</p>
+                <a href="assets/patent published.jpg" view-class="btn">Published</a>
+
+            </article>
+
+            <article class="card">
+                <h3>Interactive Resume Builder</h3>
+                <p>Built with HTML, CSS, and JavaScript, this app allows users to input details and generate a printable
+                    resume live.</p>
+                <a href="https://courageous-sprite-305701.netlify.app/" target="_blank">Live Demo</a>
+            </article>
+
+
+        </div>
+    </section>
+
+    <section id="certifications" class="certifications">
+        <h2>Certifications</h2>
+        <ul>
+            <li>HTML5 Advanced - Udemy</li>
+            <li>HTML, CSS, JavaScript - Udemy</li>
+            <li>Responsive Web Design - Udemy</li>
+            <li>Web Design Beginner to Advanced - Udemy</li>
+            <li>IBM Bootcamp - Edunet</li>
+            <li>Data Science & ML - YBI Foundation</li>
+
+        </ul>
+    </section>
+
+    <section id="experience" class="experience">
+        <h2>Experience</h2>
+        <aside>
+            <ul>
+                <li>Intern - VaultofCodes (Web Development)</li>
+                <li>IBM Edunet Bootcamp Participant</li>
+            </ul>
+        </aside>
+    </section>
+
+
+    <section id="contact" class="contact">
+        <h2>Contact Me</h2>
+
+        <form action="https://formsubmit.co/e803b824a428c6be93ec9013dc7b9cc8" method="POST">
+
+            <input type="text" name="name" placeholder="Your Name" required />
+            <input type="email" name="email" placeholder="Your Email" required />
+            <textarea name="message" placeholder="Your Message" rows="5" required></textarea>
+
+            <!-- Optional: Anti-spam and styling -->
+            <input type="hidden" name="_captcha" value="false">
+            <input type="hidden" name="_template" value="box">
+
+            <button type="submit" class="btn">Send</button>
+        </form>
+    </section>
+
+    <footer>
+        <p>&copy; 2025 Parkhi | All Rights Reserved</p><br>
+        <div class="social-icons">
+            <a href="https://github.com/yourusername" target="_blank">
+                <img src="https://cdn.jsdelivr.net/npm/simple-icons@v5/icons/github.svg" alt="GitHub" width="28" />
+            </a>
+        </div>
+        <div class="social-icons">
+            <a href="https://linkedin.com/in/yourusername" target="_blank">
+                <img src="https://cdn.jsdelivr.net/npm/simple-icons@v5/icons/linkedin.svg" alt="LinkedIn" width="28" />
+            </a>
+        </div>
+    </footer>
+
+</body>
+
+</html>
